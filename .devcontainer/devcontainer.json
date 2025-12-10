@@ -17,7 +17,8 @@
 	"runArgs": ["--cap-add=SYS_PTRACE"],
 	"customizations": {
 		"vscode": {
-			"extensions": ["biomejs.biome"]
+			"extensions": ["biomejs.biome", "ms-azuretools.vscode-azureterraform"],
+			"terminal.integrated.defaultProfile.linux": "fish"
 		},
 		"coder": {
 			"apps": [
