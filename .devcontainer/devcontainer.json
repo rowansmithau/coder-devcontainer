@@ -18,7 +18,12 @@
 	"customizations": {
 		"vscode": {
 			"extensions": ["biomejs.biome", "ms-azuretools.vscode-azureterraform"],
-			"terminal.integrated.defaultProfile.linux": "fish"
+			  "terminal.integrated.profiles.linux": {
+			    "fish (login)": {
+			      "path": "/usr/bin/fish",
+			      "args": ["-l"]
+			    }
+			  }
 		},
 		"coder": {
 			"apps": [
