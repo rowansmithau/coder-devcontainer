@@ -2,21 +2,5 @@
   "name": "Ubuntu",
   "build": {
     "dockerfile": "Dockerfile"
-  },
-
-  "features": {},
-
-  "customizations": {
-    "vscode": {
-      "settings": {
-        "terminal.integrated.profiles.linux": {
-          "fish": {
-            "path": "/usr/bin/fish",
-            "args": ["-l"]
-          }
-        },
-        "terminal.integrated.defaultProfile.linux": "fish"
-      }
-    }
   }
 }
