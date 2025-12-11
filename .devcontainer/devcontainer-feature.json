@@ -1,0 +1,19 @@
+{
+  "name": "Essentials",
+  "id": "essentials",
+  "version": "1.0.0",
+  "description": "Essential tools and configurations.",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.profiles.linux": {
+          "fish": {
+            "path": "/usr/bin/fish",
+            "args": ["-l"]
+          }
+        },
+        "terminal.integrated.defaultProfile.linux": "fish"
+      }
+    }
+  }
+}
