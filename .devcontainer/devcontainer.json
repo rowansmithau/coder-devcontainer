@@ -1,6 +1,4 @@
 {
   "name": "Ubuntu",
-  "build": {
-    "dockerfile": "Dockerfile"
-  }
+  "image": "mcr.microsoft.com/devcontainers/base:noble"
 }
