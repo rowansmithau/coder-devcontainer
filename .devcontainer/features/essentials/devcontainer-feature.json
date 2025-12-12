@@ -5,6 +5,10 @@
   "description": "Essential tools and configurations.",
   "customizations": {
     "vscode": {
+      "extensions": [
+        "bazelbuild.vscode-bazel",
+        "ms-azuretools.vscode-azureterraform"
+      ],
       "settings": {
         "terminal.integrated.profiles.linux": {
           "fish": {
@@ -13,6 +17,7 @@
           }
         },
         "terminal.integrated.defaultProfile.linux": "fish",
+        "bazel.queriesShareServer": false
       }
     }
   }
