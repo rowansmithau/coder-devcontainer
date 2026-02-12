@@ -4,6 +4,18 @@
   "version": "1.0.0",
   "description": "Essential tools and configurations.",
   "customizations": {
+    "coder": {
+      "apps": [
+        {
+          "slug": "cursor",
+          "displayName": "Cursor Desktop",
+          "url": "cursor://coder.coder-remote/openDevContainer?owner=${localEnv:CODER_WORKSPACE_OWNER_NAME}&workspace=${localEnv:CODER_WORKSPACE_NAME}&agent=${localEnv:CODER_WORKSPACE_AGENT_NAME}&devContainerName=${localEnv:CODER_WORKSPACE_AGENT_NAME}&devContainerFolder=${containerWorkspaceFolder}",
+          "external": true,
+          "icon": "/icon/cursor.svg",
+          "order": 1
+        }
+      ]
+    },
     "vscode": {
       "extensions": [
         "bazelbuild.vscode-bazel",
